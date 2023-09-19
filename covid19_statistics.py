@@ -1,4 +1,4 @@
-def normalize_data(n_cases, n_people, scale):
+def normalize_data(n_cases: list, n_people: list, scale: int) -> list:
     # TODO) Calculate the number of cases per its population
     norm_cases = []
     for idx, n in enumerate(n_cases):
